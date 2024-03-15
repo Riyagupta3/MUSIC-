@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+ 
+  <div class="main_div">
+    <div class="music_cointainer" >
+      <h2 id="title"> Bekhayali</h2>
+      <h3 id="artist">Song by Sachet Tandons</h3>
+      <div class="img_container">
+        <img src="images/1.jpeg">
+
+      </div>
+      <audio src="music/1.mp3"></audio>
+      <!-- progress bar -->
+      <div class="progressbar_cointainer" id="progress_cointainer">
+        <div class="pro-duration_meter">
+          <div id="current_meter" class="icon">0:00</div>
+          <div id="duration" class="icon">3.54</div>
+         
+        </div>
+        <div class="progress_div" id="progress_div">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+      <!-- controls -->
+      <div class="music_controls">
+        <i class="fas fa-backward" id="prev" title="prev"></i>
+        <i class="fas fa-play main_button" id="play" title="play"></i>
+        <i class="fas fa-forward" id="next" title="next"></i>
+       
+        
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
